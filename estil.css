@@ -1,0 +1,107 @@
+body{
+    border:dashed 3px, blueviolet;
+    background-color: aqua;
+    border-radius:5% 5% 5% 5%;
+    background-image: url(https://static01.nyt.com/images/2019/04/16/sports/16onsoccerweb-2/merlin_153612873_5bb119b9-8972-4087-b4fd-371cab8c5ba2-jumbo.jpg?quality=75&auto=webp); 
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h2{
+    display:block;
+    width: 300px;
+    height: 50px;
+    background-color:chocolate;
+    margin-bottom: 70px;
+    margin: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto ; 
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+.cajainicial{
+    width:50%;
+    margin-left: auto;
+    margin-right:auto ;
+    margin-top:30px;
+    margin-bottom:30px;
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    
+
+}
+
+.cajainicial:hover{
+    background-color: chartreuse;
+}
+
+
+.img{
+    width:20%;
+    border-radius:10% 10% 10% 10%;
+    border:5px solid red;
+    margin-left: 40%;
+    
+}
+
+.ferch{
+height: 50px;    
+max-width: 450px;
+background-color:chocolate;
+text-align: center;
+align-items: center;
+margin-left: auto;
+margin-right:auto ;
+margin-top:20px;
+margin-bottom:20px;
+font-size: 20px;
+border-radius: 2px;
+
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex{
+    flex: 1;
+    min-width: 300px;
+    
+}
+
+.in-flex :first-child{
+    flex: 2;
+    padding: 25px;
+    background-color: chocolate;
+    margin: 20px;
+    border-radius: 5px;
+
+}
+
+.in-flex div {
+    padding: 25px;
+    background-color: chocolate;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+
+
